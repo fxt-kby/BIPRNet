@@ -2,10 +2,6 @@
 Polarization Image Dehazing: Data Synthesis and Bidirectional Intensity–Polarization Restoration
 </h2>
 
-<b><p align=center>
-<img src="https://img.shields.io/badge/Code-Upon%20Acceptance-orange">
-</p></b>
-
 ## 📌 Overview
 
 > ⚙️ This repository is being processed. Code, pretrained weights, and the PolHaze dataset will be released upon acceptance.
