@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+.env
+
+# Training artifacts (released later)
+checkpoints/
+weights/
+logs/
+runs/
+*.pth
+*.pt
+*.ckpt
+*.npy
+
+# Data
+data/
+datasets/
+PolHaze/
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# LaTeX build
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
