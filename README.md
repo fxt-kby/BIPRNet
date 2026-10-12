@@ -20,26 +20,24 @@ Polarization Image Dehazing: Data Synthesis and Bidirectional Intensity–Polari
 
 ## 1. PolHaze
 
-PolHaze pairs captured clear polarization scenes with depth-dependent transmission and real polarized airlight, covering diverse outdoor scenes and haze densities.
-
 <p align="center">
-  <img width="100%" src="haze_synthesis2.png">
+  <img width="100%" src="figs/haze_synthesis.png">
 </p>
 
 ## 2. BIPRNet
 
-BIPRNet lets the two restoration tasks reinforce each other. Recovered intensity guides polarization restoration, and the restored polarization in turn guides dehazing.
+Results of BIPRNet on synthetic data and real data are shown below.
 
 PolHaze test set:
 
 <p align="center">
-  <img width="100%" src="测试集.png">
+  <img width="100%" src="figs/synthetic.png">
 </p>
 
 Real haze:
 
 <p align="center">
-  <img width="100%" src="真实雾霾.png">
+  <img width="100%" src="figs/real.png">
 </p>
 
 ## 🚀 Code
@@ -59,6 +57,7 @@ To be released upon acceptance, in the same two parts.
 - Training and inference
 
 ```text
+figs/        # figures
 polhaze/     # dataset and synthesis
 biprnet/     # network, training, and inference
 ```
