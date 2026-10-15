@@ -12,7 +12,6 @@ Polarization Image Dehazing: Data Synthesis and Bidirectional Intensity–Polari
 
 ## 🔥 News
 
-- **2026-10-15:** Real-world video results are available on the [video page](https://fxt-kby.github.io/BIPRNet/).
 - **2026-10-12:** Repository initialized. Code and data will be released upon acceptance.
 
 ## 1. PolHaze
@@ -37,14 +36,6 @@ Real haze:
   <img width="100%" src="figs/real.png">
 </p>
 
-## 3. Video results
-
-Nine real hazy videos are shown together on one page. Each clip is a side-by-side comparison: hazy input on the left, BIPRNet on the right.
-
-<p align="center">
-  <a href="https://fxt-kby.github.io/BIPRNet/"><b>Open the video page</b></a>
-</p>
-
 ## 🚀 Code
 
 To be released upon acceptance, in the same two parts.
@@ -62,7 +53,6 @@ To be released upon acceptance, in the same two parts.
 - Training and inference
 
 ```text
-docs/        # video results page
 figs/        # figures
 polhaze/     # dataset and synthesis
 biprnet/     # network, training, and inference
